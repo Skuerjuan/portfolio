@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-serif: var(--font-crimson), Georgia, serif;
+  --color-bronce: #956b38;
+  --color-celeste: #a0c9d6;
+}
+
+body { @apply font-serif text-black antialiased; }
+
+@keyframes entrar { from { opacity: 0; transform: translateY(10px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
