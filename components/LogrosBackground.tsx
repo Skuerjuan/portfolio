@@ -16,7 +16,6 @@ export default function LogrosBackground() {
   if (!background) return null;
 
   return (
-    // eslint-disable-next-line @next/next/no-img-element
     <img
       src={background.src}
       alt=""

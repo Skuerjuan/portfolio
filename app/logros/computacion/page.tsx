@@ -22,7 +22,6 @@ const edges: [Id, Id][] = [
   ["oia", "oiai"], ["n3", "sis"], ["n3", "poo"], ["n3", "web"],
 ];
 
-// Anillo de tecnologías, en sentido horario desde arriba.
 const techs: [string, IconType][] = [
   ["JavaScript", SiJavascript], ["C++", SiCplusplus], ["PostgreSQL", SiPostgresql], ["Unity", SiUnity],
   ["TypeScript", SiTypescript], ["Next.js", SiNextdotjs], ["Python", SiPython], ["C#", TbBrandCSharp],
